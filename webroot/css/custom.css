@@ -1,0 +1,323 @@
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    width: 50%;
+    text-align: center;
+}
+.body.no-padding {
+    padding: 0px 20px;
+}
+.card.client-detail {
+    padding-bottom: 20px;
+}
+div.error {
+    display: none;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+div.success {
+    display: none;
+    background: green;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align:center;
+    width: 100%;
+}
+.button_row {
+    text-align: right;
+    width: 100%;
+    clear: both;
+}
+
+.hideme{
+    display:none;
+}
+div#nomessage {
+    padding: 0px 0px 10px;
+    font-weight: 700;
+    color: red;
+    display:none;
+
+}
+
+.client-detail .profile-image img {
+    max-width: 150px;
+}
+
+label.checkbox-inline.col-md-4 {
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+input.inline-checkbox {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.dd-handle:hover {
+    color: inherit;
+    background: #fff;
+}
+
+
+a.action-icon {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.card.planned_task {
+    background: yellow;
+}
+
+.card.ongoing_task{
+    background: orange;
+}
+.card.billed_task{
+    background: white;
+}
+.card.scheduled_task{
+    background: white;
+}
+
+.card.completed_task{
+    background: lightgreen;
+}
+.card .header h2 small {
+    color: #333;
+}
+
+table.dataTable{
+    width: 100%!important;
+}
+
+.addbtn-primary{
+    vertical-align: top;
+    margin-bottom: 10px ;
+}
+.addbtn-primary:hover,.addbtn-primary:focus,.addbtn-primary:visited{
+ color: #fff;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.redirectbtn{
+    cursor: pointer;
+}
+
+.card.taskbutton.active {
+    border-top: 5px solid #007bff;
+}
+
+.card.taskbutton{
+    border-top: 5px solid #d0bbbb ;
+}
+.task_table td {
+    padding: 10px;
+}
+
+.btask_table td {
+    padding: 10px;
+}
+
+.nav-tabs .wise{
+    width: auto!important;
+}
+ 
+table.task_table  , table.btask_table,table.datatable,table.attendancetable{
+    border-collapse: collapse!important;
+    border-radius: 5px;
+}
+
+table.task_table td{
+    position: relative;
+}
+
+table.btask_table td{
+    position: relative;
+}
+table.task_table tr{
+    border-bottom: 1px solid #007bff;
+}
+
+table.btask_table tr{
+    border-bottom: 1px solid #007bff;
+}
+
+table.task_table th{
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+table.btask_table th {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+small.billed {
+    position: absolute;
+    top: 0;
+    background: green;
+    color: #fff;
+    width: 92%;
+    text-align: center;
+    padding: 5px;
+}
+
+select.agentfilter, select.categoryfilter {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+.red{
+    background-color: red;
+    color: #fff;
+}
+
+tr.red > td > a {
+    color: black;
+    text-decoration: underline;
+}
+
+input.bulksend {
+    vertical-align: top;
+}
+
+
+button.dt-button.buttons-excel.buttons-html5 {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.below_hours {
+    text-align: left;
+    background:#282829;
+    color:#fff;
+    padding: 5px 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+.reworktask {
+    background: 
+    red;
+}
+.reworktask .header h2,.reworktask .header h2 small{
+    color: white;
+
+}
+
+.qualitytask{
+    background: purple;
+}
+
+.qualitytask .header h2,.qualitytask .header h2 small{
+    color: white;
+
+}
+
+.customloader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 15px;
+    height: 15px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    display: inline-block;
+    vertical-align: inherit;
+    display: none;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .green{
+      background-color: green;
+      color: #fff;
+  }
+
+  .belowmsg , .topmsg {
+    color: 
+    #000;
+    font-weight: 700;
+}
+
+.grey{
+    background:grey;color:white
+}
+tr.grey > td > a {
+    color: white;
+    text-decoration: underline;
+}
+#commentbox{
+    display:none;
+}
+
+.down-row {
+    width: 19%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.chat{
+    margin : 0 ;
+}
+.message.my-message {
+    float: left;
+    text-align: left;
+}
+.header 
+{
+    border-top: #007bff 4px solid;
+    border-radius: .55rem;
+}
+h6
+{
+    color: #007bff !important;
+}
+h2.heading
+{
+    font-size:20px !important;
+    color: #007bff !important;
+}
+
+.modal-phw{
+    position: fixed !important;
+    height: 90% !important;
+    width: 35% !important;
+}
+
+.modal-scroll{
+    overflow-y: scroll !important;
+}
+
+.select2-container {
+    width: 100% !important;
+    
+}
+.modal-scroll-height{
+	height:300px !important;
+}

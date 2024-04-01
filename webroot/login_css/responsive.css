@@ -1,0 +1,78 @@
+@media only screen and (min-width: 767px) and (max-width: 991px){
+  
+
+footer .content .top {
+    display: inline-block;
+}
+.content .link-boxes .box li a {
+    font-size: 12px;
+}
+footer .content {
+    padding: 30px 25px 40px 20px;
+}
+footer .content .link-boxes .box {
+    width: calc(100% / 5 - -30px);
+}
+.head-main {
+background: url(../img/banner-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.select-box ul li {
+    display: block;
+}
+.study-abroad-form {
+    width: 100%;
+}
+.why-count-img img {
+    width: 100%;
+}
+.affordable-education-img img {
+    width: 100%;
+}
+.triangle-sec img {
+    margin-top: 0;
+}
+}
+
+@media only screen and (max-width: 767px)
+{
+.study-abroad-form {
+    width: 100%;
+}    
+  .select-box ul li {
+    display: block;
+}  
+.banner-text h1 {
+    font-size: 36px;
+}    
+footer .content .link-boxes .box {
+    width: 100%;
+}
+.head-main {
+    padding: 5% 8% 10% 8%;
+}
+footer .content .top {
+    display: block;
+}
+footer::before {
+    top: 120px;
+}
+.head-main {
+background: url(../img/banner-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.select-box ul li {
+    display: block;
+}
+.why-count-img img {
+    width: 100%;
+}
+.affordable-education-img img {
+    width: 100%;
+}
+.triangle-sec img {
+    margin-top: 0;
+}
+}
